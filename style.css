@@ -77,7 +77,7 @@ body {
     display: none;
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* ======= HERO SECTION ======= */
@@ -452,6 +452,46 @@ footer {
 
 .footer-links a:hover {
     color: #ffffff;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-social h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.social-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    border-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
 }
 
 .copyright {
