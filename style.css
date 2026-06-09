@@ -1,4 +1,4 @@
-/* style.css - NaNaKi Codex - โทนสีขาวดำ, อนิเมชั่น, responsive */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
     line-height: 1.6;
 }
 
-/* ======= NAVBAR ======= */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -69,8 +69,8 @@ body {
 }
 
 .nav-links li a:hover {
-    border-bottom-color: #ffffff;
-    color: #ffffff;
+    border-bottom-color: #000000;
+    color: #000000;
 }
 
 .menu-toggle {
@@ -80,7 +80,7 @@ body {
     color: #000000;
 }
 
-/* ======= HERO SECTION ======= */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -168,7 +168,6 @@ body {
     }
 }
 
-/* ======= COMMON SECTION STYLES ======= */
 .services, .team, .motto {
     padding: 5rem 2rem;
     opacity: 0;
@@ -194,7 +193,7 @@ body {
 .section-header h2 {
     font-size: 2.4rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: -0.3px;
 }
 
@@ -212,7 +211,6 @@ body {
     border-radius: 2px;
 }
 
-/* ======= SERVICES SECTION ======= */
 .services {
     background: #0d0d0d;
 }
@@ -271,7 +269,6 @@ body {
     line-height: 1.7;
 }
 
-/* ======= TEAM SECTION ======= */
 .team {
     background: #1a1a1a;
 }
@@ -368,7 +365,6 @@ body {
     transform: scale(1.2);
 }
 
-/* ======= MOTTO SECTION ======= */
 .motto {
     background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%);
     color: #ffffff;
@@ -410,7 +406,6 @@ body {
     letter-spacing: 1px;
 }
 
-/* ======= FOOTER ======= */
 footer {
     background: #0d0d0d;
     color: #ffffff;
@@ -507,7 +502,6 @@ footer {
     margin: 0.5rem 0;
 }
 
-/* ======= REVEAL ANIMATION ======= */
 .reveal {
     opacity: 0;
     transform: translateY(20px);
@@ -519,7 +513,6 @@ footer {
     transform: translateY(0);
 }
 
-/* ======= RESPONSIVE DESIGN ======= */
 @media (max-width: 768px) {
     .navbar {
         margin-bottom: 0;
@@ -635,13 +628,11 @@ footer {
     }
 }
 
-/* ======= UTILITY CLASSES ======= */
 .visible {
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
 
-/* Smooth transitions */
 button, a {
     transition: all 0.2s ease;
 }
