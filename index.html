@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>NaNaKi Codex | Dev Team</title>
+    <!-- Fonts & CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+<body>
+
+    <!-- NAVBAR (ตัวเลือก UI บนสุด) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-nav">
+                <a href="#">NaNaKi Codex</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">บริการ</a></li>
+                <li><a href="#team">ทีมงาน</a></li>
+                <li><a href="#motto">คติประจำทีม</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION: โลโก้หลัก NaNaKi Codex -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="logo-main">
+                <span class="logo-icon"><i class="fas fa-code"></i></span>
+                <h1>NaNaKi Codex</h1>
+                <div class="hero-line"></div>
+                <p>Build with precision, driven by passion.</p>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>เลื่อนลง</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION: ทีมเรารับทำอะไรบ้าง -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>เรารับทำอะไรบ้าง</h2>
+                <div class="header-underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fab fa-discord"></i></div>
+                    <h3>Bot Discord</h3>
+                    <p>พัฒนา BOT คุณภาพสูง ตอบสนองเร็ว ปรับแต่งตามความต้องการของชุมชนคุณ</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>รับเขียน Code</h3>
+                    <p>เขียนโค้ดสะอาด รองรับหลายภาษา (Python, JS, PHP, C#) ตรงตามเป้าหมายโปรเจค</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-server"></i></div>
+                    <h3>จัดวางระบบ Discord</h3>
+                    <p>ออกแบบระบบ Role, Log, Ticket, Auto-mod เพิ่มประสิทธิภาพเซิร์ฟเวอร์</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chalkboard-user"></i></div>
+                    <h3>ปรึกษาและวางแผนงาน</h3>
+                    <p>วิเคราะห์ความต้องการ วางโรดแมป และให้คำปรึกษาเชิงเทคนิค</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM SECTION: สมาชิกทีม 5 คน พร้อมอนิเมชั่นเมาส์ชี้ -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>แกนนำทีม NaNaKi</h2>
+                <div class="header-underline"></div>
+                <p>ผู้อยู่เบื้องหลังโค้ดทุกบรรทัด</p>
+            </div>
+            <div class="team-grid">
+                <!-- สมาชิก 1 -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="image/Notto.png" alt="team member">
+                        <div class="avatar-overlay"><i class="fas fa-crown"></i></div>
+                    </div>
+                    <h3>Notto</h3>
+                    <span class="role">Lead Developer / Fullstack</span>
+                    <div class="member-social">
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-discord"></i>
+                    </div>
+                </div>
+                <!-- สมาชิก 2 -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="image/Supreme.png" alt="team member">
+                        <div class="avatar-overlay"><i class="fas fa-code"></i></div>
+                    </div>
+                    <h3>Supreme</h3>
+                    <span class="role">UI/UX & Frontend</span>
+                    <div class="member-social">
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-discord"></i>
+                    </div>
+                </div>
+                <!-- สมาชิก 3 -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="image/Ryu.png" alt="team member">
+                        <div class="avatar-overlay"><i class="fas fa-robot"></i></div>
+                    </div>
+                    <h3>Ryu</h3>
+                    <span class="role">Discord API Specialist</span>
+                    <div class="member-social">
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-discord"></i>
+                    </div>
+                </div>
+                <!-- สมาชิก 4 -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="image/Nanon.png" alt="team member">
+                        <div class="avatar-overlay"><i class="fas fa-database"></i></div>
+                    </div>
+                    <h3>NaNon</h3>
+                    <span class="role">Backend & DevOps</span>
+                    <div class="member-social">
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-discord"></i>
+                    </div>
+                </div>
+                <!-- สมาชิก 5 -->
+                <div class="team-member">
+                    <div class="member-avatar">
+                        <img src="image/Milk.png" alt="team member">
+                        <div class="avatar-overlay"><i class="fas fa-chart-line"></i></div>
+                    </div>
+                    <h3>Milk</h3>
+                    <span class="role">Project Manager / Consultant</span>
+                    <div class="member-social">
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-discord"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOTTO SECTION: คติประจำทีม -->
+    <section id="motto" class="motto">
+        <div class="motto-container">
+            <div class="motto-quote">
+                <i class="fas fa-quote-left"></i>
+                <h2>"ทีมพัฒนา Dev มืออาชีพ เขียนโค้ดด้วยใจ</h2>
+                <p>และโค้ดทุกบรรทัดคือการเดินทางของเรา"</p>
+                <div class="motto-signature">— NaNaKi Codex —</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER + ลิขสิทธิ์ -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-code-branch"></i> NaNaKi Codex
+            </div>
+            <div class="footer-links">
+                <a href="#home">หน้าแรก</a>
+                <a href="#services">บริการ</a>
+                <a href="#team">ทีมงาน</a>
+                <a href="#motto">คติ</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 NaNaKi Codex | สงวนลิขสิทธิ์ตามพระราชบัญญัติ</p>
+                <p>ออกแบบด้วยความมุ่งมั่นบนเส้นทางของนักพัฒนา</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- รวม JS หลัก และ PHP ไม่ต้องแสดงผลบน front แต่แยกไฟล์ตามที่ต้องการ (PHP จะถูกเรียกแยก แต่ใน script หลักไม่จำเป็นต้องผสม) -->
+    <script src="script.js"></script>
+    <!-- PHP Backend Example: หลังจากนี้ยังมีไฟล์ backend.php แต่ client-side ไม่ต้องใช้ แต่เราสร้างให้สอดคล้อง -->
+</body>
+</html>
